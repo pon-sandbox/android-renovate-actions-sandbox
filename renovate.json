@@ -4,6 +4,12 @@
     "config:recommended"
   ],
   "prConcurrentLimit": 5,
+  "hostRules": [
+    {
+      "matchHost": "api.github.com",
+      "concurrentRequestLimit": 2
+    }
+  ],
   "packageRules": [
     {
       "matchDatasources": [
