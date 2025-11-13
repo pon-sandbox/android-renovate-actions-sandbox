@@ -10,7 +10,7 @@ activityCompose = "1.11.0"
 
 androidGradlePlugin = "8.9.0"
 androidxComposeMaterialIconsCore = "1.7.7"
-androidxTestCore = "1.6.0"
+androidxTestCore = "1.7.0"
 androidxTestRules = "1.6.0"
 androidxTestRunner = "1.6.0"
 androidxComposeBom = "2025.03.00"
