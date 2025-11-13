@@ -4,11 +4,6 @@
     "config:recommended"
   ],
   "prConcurrentLimit": 5,
-  "env": {
-    "GRADLE_OPTS": "-Xmx128m -XX:MaxMetaspaceSize=128m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8 -XX:+UseG1GC -Dorg.gradle.workers.max=1 -Dorg.gradle.daemon=false -Dkotlin.compiler.execution.strategy=\"in-process\""
-  },
-  "branchConcurrentLimit": 1,
-  "rebaseWhen": "conflicted",
   "packageRules": [
     {
       "matchDatasources": [
