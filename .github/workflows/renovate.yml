@@ -24,6 +24,7 @@ jobs:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@v44.0.1
         env:
+          LOG_LEVEL: "debug"
           RENOVATE_GITHUB_COM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           configurationFile: "renovate.config.js"
