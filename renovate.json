@@ -166,7 +166,12 @@
       "prBodyNotes": [
         "### Release Notes\n\nhttps://learn.microsoft.com/en-us/clarity/mobile-sdk/sdk-changelog#android-sdk-changelog"
       ],
-      "changelogUrl": ""
+      "changelogUrl": "",
+      "postUpgradeTasks": {
+        "commands": [
+          "./gradlew clean"
+        ]
+      }
     },
     {
       "matchPackageNames": [
