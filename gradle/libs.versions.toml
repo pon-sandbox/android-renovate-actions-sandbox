@@ -16,7 +16,7 @@ androidxTestRunner = "1.6.0"
 androidxComposeBom = "2025.03.00"
 firebaseBom = "33.12.0"
 guava = "33.4.5-android"
-clarity = "3.1.2"
+clarity = "3.6.1"
 photoView = "2.2.0"
 
 [libraries]
