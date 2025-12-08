@@ -20,7 +20,7 @@ jobs:
           repositories: "android-renovate-actions-sandbox"
 
       - name: Checkout
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v4.3.1
 
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@v44.0.1
